@@ -1,7 +1,6 @@
 name: GitHub Actions - Push - Branch Ignore Template
 run-name: Running - ${{ github.event_name }}
-on:
-  workflow_dispatch:
+on: [workflow_dispatch]
 
 jobs:
   on-workflow_dispatch:
