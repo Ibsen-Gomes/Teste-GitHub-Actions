@@ -1,5 +1,5 @@
 # Adicionado o workflow dispatch
-name: GitHub Actions - Push Template Básico
+name: GitHub Actions - Push Workflow dispatch
 run-name: Running - ${{ github.event_name }}
 on: [workflow_dispatch]
 
