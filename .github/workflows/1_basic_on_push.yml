@@ -1,8 +1,10 @@
+# Adicionado o workflow dispatch
 name: GitHub Actions - Push Template Básico
 run-name: Running - ${{ github.event_name }}
-on: [push]
+on: [workflow_dispatch]
+
 jobs:
-  on-push:
+  on-workflow_dispatch:
     runs-on: ubuntu-20.04
     steps:
       - name: Comentário
